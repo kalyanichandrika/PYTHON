@@ -1,0 +1,23 @@
+list=[1,2,3,4,5,6,7,8,9]
+print(list[1::2])
+def mom(a,b):
+    print(a+b)
+a=10
+b=20
+c=mom(a,b)
+print(c)
+if False:
+    print("Valid")
+else:
+    print("Invalid")
+try:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:")) 
+    result=a+b
+    print("Sum:",result)
+expect ValueError:
+    print("Invalid input! please enter a number.")
+x=2+3j
+print(x.real)
+print(x.imag)
+print(type(x))
